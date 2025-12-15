@@ -1,0 +1,31 @@
+project-root/
+├── auth-module/
+│   ├── __init__.py
+│   ├── auth.py
+│   └── templates/
+│       ├── login.html
+│       └── register.html
+├── tasks-module/
+│   ├── __init__.py
+│   ├── tasks.py
+│   └── templates/
+│       ├── tasks.html
+│       ├── create_task.html
+│       └── edit_task.html
+├── reports-module/
+│   ├── __init__.py
+│   ├── reports.py
+│   └── templates/
+│       └── reports.html
+├── main.py
+├── config.py
+├── database.db
+├── requirements.txt
+├── docs/
+│   └── architecture.md
+├── tests/
+│   ├── test_auth.py
+│   ├── test_tasks.py
+│   └── test_reports.py
+├── README.md
+└── .gitignore
